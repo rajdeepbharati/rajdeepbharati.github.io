@@ -1,1 +1,1 @@
-# [Rajdeep's Resume](https://rajdeepbharati.github.io/)
+# [Rajdeep's Portfolio](https://rajdeepbharati.github.io/)
