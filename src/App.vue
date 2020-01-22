@@ -1,102 +1,107 @@
 <template>
   <div id="app">
-    <b-navbar>
-      <template slot="brand">
-        <b-navbar-item href="/">
-          <img
-            src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-            alt="Lightweight UI components for Vue.js based on Bulma"
-          />
-        </b-navbar-item>
-      </template>
-      <template slot="start">
-        <b-navbar-item href="#/" class="navbar-item">
-          Home
-        </b-navbar-item>
-        <b-navbar-item href="#/about" class="navbar-item">
-          About
-        </b-navbar-item>
-        <b-navbar-item href="#/projects" class="navbar-item">
-          Projects
-        </b-navbar-item>
-        <!-- <b-navbar-item href="#/blog" class="navbar-item">
-          Blog
-        </b-navbar-item> -->
-        <a
-          class="navbar-item"
-          href="https://drive.google.com/file/d/110bvGGPXOsjxaqrYW3GgPQXdwQDVyou5/view?usp=sharing"
-          target="_blank"
-        >
-          Résumé
-        </a>
-        <b-navbar-item class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
+    <div class="cont">
+      <b-navbar>
+        <template slot="brand">
+          <b-navbar-item href="/">
+            <!-- <img
+              src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
+              alt="Lightweight UI components for Vue.js based on Bulma"
+            /> -->
+            <img
+              src="./assets/amusedcrabbie.svg"
+              alt="amused crabbie rust-lang"
+            />
+          </b-navbar-item>
+        </template>
+        <template slot="start">
+          <b-navbar-item href="#/" class="navbar-item">
+            Home
+          </b-navbar-item>
+          <b-navbar-item href="#/about" class="navbar-item">
+            About
+          </b-navbar-item>
+          <b-navbar-item href="#/projects" class="navbar-item">
+            Projects
+          </b-navbar-item>
+          <!-- <b-navbar-item href="#/blog" class="navbar-item">
+            Blog
+          </b-navbar-item> -->
+          <a
+            class="navbar-item"
+            href="https://drive.google.com/open?id=1RriBVcKdK-REbJ1qpIOJwsQUDFpdHAFn"
+            target="_blank"
+          >
+            Résumé
           </a>
+          <b-navbar-item class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
 
-          <div class="navbar-dropdown">
-            <a
-              href="mailto:rajdeep@macports.org"
-              target="_blank"
-              class="navbar-item"
-            >
-              Contact
-            </a>
-            <hr class="navbar-divider" />
-            <a
-              href="https://github.com/rajdeepbharati/rajdeepbharati.github.io/issues"
-              target="_blank"
-              class="navbar-item"
-            >
-              Report an issue
-            </a>
-          </div>
-        </b-navbar-item>
-      </template>
+            <div class="navbar-dropdown">
+              <a
+                href="mailto:rajdeep@macports.org"
+                target="_blank"
+                class="navbar-item"
+              >
+                Contact
+              </a>
+              <hr class="navbar-divider" />
+              <a
+                href="https://github.com/rajdeepbharati/rajdeepbharati.github.io/issues"
+                target="_blank"
+                class="navbar-item"
+              >
+                Report an issue
+              </a>
+            </div>
+          </b-navbar-item>
+        </template>
 
-      <template slot="end">
-        <b-navbar-item tag="div">
-          <div class="buttons">
-            <a
-              href="https://github.com/rajdeepbharati"
-              target="_blank"
-              class="navbar-item"
-            >
-              <img src="./assets/icons/Github.svg" width="28" height="28" />
-            </a>
-            <a
-              href="https://twitter.com/ImRajdeepB"
-              target="_blank"
-              class="navbar-item"
-            >
-              <img src="./assets/icons/Twitter.svg" width="28" height="28" />
-            </a>
-            <a
-              href="https://www.quora.com/profile/Rajdeep-Bharati"
-              target="_blank"
-              class="navbar-item"
-            >
-              <img src="./assets/icons/quora.svg" width="28" height="28" />
-            </a>
-            <a
-              href="https://medium.com/@rajdeepbharati"
-              target="_blank"
-              class="navbar-item"
-            >
-              <img src="./assets/icons/medium.svg" width="28" height="28" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rajdeepbharati"
-              target="_blank"
-              class="navbar-item"
-            >
-              <img src="./assets/icons/Linkedin.svg" width="28" height="28" />
-            </a>
-          </div>
-        </b-navbar-item>
-      </template>
-    </b-navbar>
-    <!-- <div id="nav">
+        <template slot="end">
+          <b-navbar-item tag="div">
+            <div class="buttons">
+              <a
+                href="https://github.com/rajdeepbharati"
+                target="_blank"
+                class="navbar-item"
+              >
+                <img src="./assets/icons/Github.svg" width="28" height="28" />
+              </a>
+              <a
+                href="https://twitter.com/ImRajdeepB"
+                target="_blank"
+                class="navbar-item"
+              >
+                <img src="./assets/icons/Twitter.svg" width="28" height="28" />
+              </a>
+              <a
+                href="https://www.quora.com/profile/Rajdeep-Bharati"
+                target="_blank"
+                class="navbar-item"
+              >
+                <img src="./assets/icons/quora.svg" width="28" height="28" />
+              </a>
+              <a
+                href="https://medium.com/@rajdeepbharati"
+                target="_blank"
+                class="navbar-item"
+              >
+                <img src="./assets/icons/medium.svg" width="28" height="28" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rajdeepbharati"
+                target="_blank"
+                class="navbar-item"
+              >
+                <img src="./assets/icons/Linkedin.svg" width="28" height="28" />
+              </a>
+            </div>
+          </b-navbar-item>
+        </template>
+      </b-navbar>
+      <!-- <div id="nav">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -198,7 +203,21 @@
         </div>
       </nav>
     </div> -->
-    <router-view />
+      <router-view />
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          © Rajdeep Bharati 2020. Social media icons by
+          <a href="https://www.vecteezy.com">Vecteezy</a>. Images by
+          <a href="https://www.rust-lang.org/">rust-lang.org</a>
+          <br />
+          Made with
+          <i class="fa fa-heart" style="font-size: 16px; color: red"></i> in
+          Vue.js and Bulma.
+        </p>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -208,7 +227,7 @@ export default {}
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -230,5 +249,20 @@ export default {}
 
 .nav-item {
   color: red;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cont {
+  flex: 1;
 }
 </style>
