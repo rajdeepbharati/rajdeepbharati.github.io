@@ -1,18 +1,33 @@
 <template>
   <div class="home">
     <p>
-      Hi I'm Rajdeep Bharati. I'm a software engineer &amp; junior Computer
-      Science student
+      Hi, my name is
+    </p>
+    <h1>Rajdeep Bharati.</h1>
+    <p>
+      I'm a software engineer &amp; junior Computer Science student at Jamia
+      Hamdard, New Delhi. I am an open source software enthusiast and Google
+      Summer of Code participant at MacPorts.
     </p>
     <p>
-      I am currently playing around with Rust and systems programming. Some of
-      my interests are Compilers, Distributed Systems, Programming languages,
-      and Machine Learning.
+      Currently, I'm building end-to-end Machine Learning systems. Some of my
+      interests are Distributed Systems, Programming languages, and Deep
+      Learning.
     </p>
     <p>
       In my free time I contribute to open source projects. You can follow my
       work on
       <a href="https://github.com/rajdeepbharati" target="_blank">GitHub</a>.
+    </p>
+    <br />
+    <p>
+      <a
+        class="button is-success is-outlined"
+        href="mailto:rajdeep@macports.org"
+        target="_blank"
+      >
+        Get In Touch
+      </a>
     </p>
     <!-- <img alt="Vue logo" src="../assets/lendit.png" /> -->
   </div>
@@ -33,7 +48,22 @@ export default {
 }
 p {
   text-align: left;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-left: 16px;
+  margin-right: 8px;
+}
+h1 {
+  text-align: left;
+  margin-left: 14px;
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18.72px;
+}
+h4 {
+  font-size: 16px;
 }
 </style>
